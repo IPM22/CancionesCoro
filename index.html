@@ -1,0 +1,453 @@
+<link
+  href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+  rel="stylesheet"
+  id="bootstrap-css"
+/>
+<link href="/CancionesCoro/style.css" rel="stylesheet" />
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container search-table">
+  <h3>Listado de canciones | Coro IDC Ozama</h3>
+  <div class="search-box">
+    <div class="row">
+      <div class="col-md-3">
+        <h5>Buscar por todos los campos</h5>
+      </div>
+      <div class="col-md-9">
+        <input
+          type="text"
+          id="myInput"
+          onkeyup="myFunction()"
+          class="form-control"
+          placeholder="Titulo, Tono, etc.."
+        />
+        <script>
+          $(document).ready(function () {
+            $("#myInput").on("keyup", function () {
+              var value = $(this).val().toLowerCase();
+              $("#myTable tr").filter(function () {
+                $(this).toggle(
+                  $(this).text().toLowerCase().indexOf(value) > -1
+                );
+              });
+            });
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+  <div class="search-list">
+    <table class="table" id="myTable">
+      <thead>
+        <tr>
+          <th style="text-align: left">Titulo</th>
+          <th style="text-align: left">Tono</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jesucristo conmigo va</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>Canta Alabanzas</td>
+          <td>G #</td>
+        </tr>
+        <tr>
+          <td>Alabemos al Señor</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>Maravilloso</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>Jesús nombre adorable</td>
+          <td>G #</td>
+        </tr>
+        <tr>
+          <td>Cristo te alabamos</td>
+          <td>E</td>
+        </tr>
+        <tr>
+          <td>Todavia Señor</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>Hay más allá del cielo azul</td>
+          <td>D #</td>
+        </tr>
+        <tr>
+          <td>Mi Señor es Jesucristo</td>
+          <td>H</td>
+        </tr>
+        <tr>
+          <td>Hay momentos</td>
+          <td>H</td>
+        </tr>
+        <tr>
+          <td>Padre amado</td>
+          <td>C #</td>
+        </tr>
+        <tr>
+          <td>Mi Dios y yo</td>
+          <td>D #</td>
+        </tr>
+        <tr>
+          <td>A Jehová invocaré</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>En momentos así</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>Tal como soy</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>Miren que bueno</td>
+          <td>A #</td>
+        </tr>
+        <tr>
+          <td>Te amo en el amor del Señor</td>
+          <td>A #</td>
+        </tr>
+        <tr>
+          <td>El ministerio</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>Buscad primeramente el reino de Dios</td>
+          <td>F #</td>
+        </tr>
+        <tr>
+          <td>Amor es vida</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>Amar es entregarse</td>
+          <td>A #</td>
+        </tr>
+        <tr>
+          <td>Que alegria</td>
+          <td>F #</td>
+        </tr>
+        <tr>
+          <td>Como la viuda</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>Mi ofrenda doy</td>
+          <td>F #</td>
+        </tr>
+        <tr>
+          <td>Ofrenda hermano</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>La gente de nuestro tiempo</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Puedo confiar en el Señor</td>
+          <td>G #</td>
+        </tr>
+        <tr>
+          <td>La gloriosa mañana</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>Quiero cantar</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>Redimifo fui</td>
+          <td>G #</td>
+        </tr>
+        <tr>
+          <td>Oh Dios tú eres</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>Viene Jesús</td>
+          <td>E</td>
+        </tr>
+        <tr>
+          <td>Estaré</td>
+          <td>A #</td>
+        </tr>
+        <tr>
+          <td>El tiempo es yá</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>Sublime gracia</td>
+          <td>C #</td>
+        </tr>
+        <tr>
+          <td>El Coro</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>A ti Señor</td>
+          <td>A #</td>
+        </tr>
+        <tr>
+          <td>Su gracia me alcanzó</td>
+          <td>C #</td>
+        </tr>
+        <tr>
+          <td>Te amo Rey</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>Débil soy tu fuerza esta</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>Maravillosa gracia</td>
+          <td>D #</td>
+        </tr>
+        <tr>
+          <td>Misterios hay</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Toda la tierra adorará</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Tu eres Señor de la creación</td>
+          <td>D #</td>
+        </tr>
+        <tr>
+          <td>De los cielos descendió</td>
+          <td>D #</td>
+        </tr>
+        <tr>
+          <td>Oh Dios eterno</td>
+          <td>C #</td>
+        </tr>
+        <tr>
+          <td>¿Señor quien entrará?</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Gracias Dios por tu bondad</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Sumo sacerdote</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Aleluya, digno eres tú</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Dale tu ofrenda al Señor</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>La tumba le encerró</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Este es el día</td>
+          <td>D</td>
+        </tr>
+        <tr>
+          <td>El himno de la alegria</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>Depósito a mi cuenta</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>Dios transformame</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>En Jesucristo martir de paz</td>
+          <td>D</td>
+        </tr>
+        <tr>
+          <td>No me presentaré</td>
+          <td>E</td>
+        </tr>
+        <tr>
+          <td>Manos cariñosas</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Si tu siempre buscas al Señor</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>No hay otro nombre</td>
+          <td>C #</td>
+        </tr>
+        <tr>
+          <td>Allí no habra tribulación</td>
+          <td>H</td>
+        </tr>
+        <tr>
+          <td>Cumbayá</td>
+          <td>A #</td>
+        </tr>
+        <tr>
+          <td>En ti Señor</td>
+          <td>F #</td>
+        </tr>
+        <tr>
+          <td>Gloria, Gloria, Gloria</td>
+          <td>F #</td>
+        </tr>
+        <tr>
+          <td>Santa cena</td>
+          <td>E</td>
+        </tr>
+        <tr>
+          <td>En Jesús el Salvador</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Pronto estaremos libres</td>
+          <td>G #</td>
+        </tr>
+        <tr>
+          <td>Si fuera hoy</td>
+          <td>E</td>
+        </tr>
+        <tr>
+          <td>Estamos reunidos esta noche</td>
+          <td>C #</td>
+        </tr>
+        <tr>
+          <td>Bendito sea el día</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>Vamos a cantar</td>
+          <td>G #</td>
+        </tr>
+        <tr>
+          <td>Ven a cantar conmigo</td>
+          <td>D #</td>
+        </tr>
+        <tr>
+          <td>Sea la paz</td>
+          <td>F #</td>
+        </tr>
+        <tr>
+          <td>La merced de nuestro Padre</td>
+          <td>E</td>
+        </tr>
+        <tr>
+          <td>¿ Con qué pagaremos ?</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>Dame un nuevo ♥</td>
+          <td>F #</td>
+        </tr>
+        <tr>
+          <td>¡Hablame, Oh hablame !</td>
+          <td>A #</td>
+        </tr>
+        <tr>
+          <td>Hacemos hoy</td>
+          <td>E</td>
+        </tr>
+        <tr>
+          <td>El nombre de Dios es..</td>
+          <td>D #</td>
+        </tr>
+        <tr>
+          <td>Demos gracias al Señor</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>Gracias Señor</td>
+          <td>C #</td>
+        </tr>
+        <tr>
+          <td>Llena mi copa</td>
+          <td>B #</td>
+        </tr>
+        <tr>
+          <td>El Señor así me habló</td>
+          <td>C #</td>
+        </tr>
+        <tr>
+          <td>Oye Oh Israel</td>
+          <td>D #</td>
+        </tr>
+        <tr>
+          <td>Yo quiero ser</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Cada vez que veo la cruz</td>
+          <td>C</td>
+        </tr>
+        <tr>
+          <td>Cerca de ti Señor</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>Pescador de hombres</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>Te quiero mi Señor</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>Ofendamos al Señor</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>Día del Juicio</td>
+          <td>D</td>
+        </tr>
+        <tr>
+          <td>Dios tu pueblo canta</td>
+          <td>G</td>
+        </tr>
+        <tr>
+          <td>Unidos, unidos</td>
+          <td>A #</td>
+        </tr>
+        <tr>
+          <td>Más allá</td>
+          <td>G #</td>
+        </tr>
+        <tr>
+          <td>Allá comprenderé</td>
+          <td>E</td>
+        </tr>
+        <tr>
+          <td>Amor tan grande</td>
+          <td>F</td>
+        </tr>
+        <tr>
+          <td>Mi Dios que grandioso es</td>
+          <td>D</td>
+        </tr>
+        <tr>
+          <td>Jesús es el Señor</td>
+          <td>B</td>
+        </tr>
+        <tr>
+          <td>Way Maker</td>
+          <td>C #</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
